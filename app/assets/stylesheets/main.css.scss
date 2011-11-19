@@ -1,3 +1,140 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@mixin roundcorners {
+	border-radius: 15px;
+	
+}
+
+$nicegrey: #363636;
+$link: #627199;
+$linkhover: #374B99;
+
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
+@import url(http://fonts.googleapis.com/css?family=Paytone+One);
+@import url(http://fonts.googleapis.com/css?family=Candal);
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(http://fonts.googleapis.com/css?family=Changa+One);
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: #EDEDED;
+}
+
+.clear
+{
+	clear: both;
+}
+
+//Header
+
+#header-container
+{
+	color: $nicegrey;
+	margin-left: 25px;
+	#name-container{
+		h1
+		{
+			font-size: 13em;
+			font-family: 'Changa One', cursive;
+			margin: -25px 0 -15px 0;
+		}
+	}
+	h2
+	{
+		font-size: 4.5em;
+		font-family: 'Nixie One', cursive;
+	}
+	h3
+	{
+		margin-top: 15px;
+		text-indent: 5px;
+		font-size: 1.7em;
+		font-family: 'Nixie One', cursive;
+	}
+}
+
+#bar
+{
+	margin: 35px 135px 0 0;
+	height: 20px;
+	background: $nicegrey;
+}
+
+//Main
+#content
+{
+	margin: 35px 0 0 30px;
+	font-family: 'Nixie One', cursive;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: $nicegrey;
+}
+#left-side
+{
+	float: left;
+	width: 700px;
+	padding-right: 20px;
+	span
+	{
+	font-family: 'Changa One', cursive;
+	}
+	a
+	{
+		color: $link;
+	}
+	a:hover,a:visited
+	{
+		color: $linkhover;
+	}
+	border-right: 1px #808080 solid
+}
+
+#right-side
+{
+	float: left;
+}
+
+.social
+{
+	margin-left: 30px;
+	a
+	{
+		text-decoration: none;
+		color: $link;
+	}
+	a:hover, a:visited
+	{
+		img {
+			opacity: 1;
+		}
+		p
+		{
+			color: $linkhover;
+			text-decoration: underline;
+		}
+	}
+	img
+	{
+		opacity: .2;
+		line-height: 60px;
+		float: right;
+		margin-left: 30px;
+	}
+	p
+	{
+		line-height: 60px;
+		float: left;
+		text-decoration: none;
+	}
+}
+
+//Footer

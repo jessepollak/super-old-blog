@@ -120,6 +120,7 @@ DEPENDENCIES
   json
   rails (= 3.1.2)
   rdiscount
+  sass
   sass-rails (~> 3.1.5.rc.2)
   sqlite3
   uglifier (>= 1.0.3)

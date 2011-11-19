@@ -10,7 +10,8 @@ gem 'sqlite3'
 gem 'json'
 gem 'haml'
 gem 'rdiscount'
-gem "haml-rails"
+gem 'haml-rails'
+gem 'sass'
 
 # Gems used only for assets and not required
 # in production environments by default.

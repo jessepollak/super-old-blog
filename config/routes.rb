@@ -1,6 +1,4 @@
 JessepollakMe::Application.routes.draw do
-  get "home/main"
-
   get "main/home"
   
   root :to => 'Main#home'

@@ -2,7 +2,7 @@ JessepollakMe::Application.routes.draw do
   get "main/home"
   
   root :to => 'Main#home'
-  match '/5crideshare' => 'http://www.5crideshare.jessepollak.me'
+  match '/5crideshare' => 'http://5crideshare.jessepollak.me'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

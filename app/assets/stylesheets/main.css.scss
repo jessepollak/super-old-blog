@@ -27,6 +27,7 @@ $link: #374B99;
 body
 {
 	background: #EDEDED;
+	font-family: 'Nixie One', cursive;
 }
 
 .clear
@@ -59,6 +60,24 @@ body
 		text-indent: 5px;
 		font-size: 1.7em;
 		font-family: 'Nixie One', cursive;
+	}
+}
+
+#rideshare-container
+{
+	position: relative;
+	z-index: 1000;
+	text-align:center;
+	padding: 5px 0 5px 0;
+	background: #999;
+	border-bottom: #798599 2px solid;
+	a
+	{
+		color: #ECECEC;
+	}
+	a:hover
+	{
+		color: #2F2F2F;
 	}
 }
 
@@ -138,3 +157,8 @@ body
 }
 
 //Footer
+
+#footer-container
+{
+	height: 50px;
+}

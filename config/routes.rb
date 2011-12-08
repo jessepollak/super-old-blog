@@ -1,16 +1,11 @@
 JessepollakMe::Application.routes.draw do
   
-  constraints(:host => "www.example.net") do
-    # Won't match root path without brackets around "*x". (using Rails 3.0.3)
-    match "(*x)" => redirect { |params, request|
-      URI.parse(request.url).tap { |x| x.host = "example.net" }.to_s
-    }
-  end
-  
   get "main/home"
+  get "main/fivecrideshare"
   
   root :to => 'Main#home'
-  match '/5crideshare' => 'http://5crideshare.jessepollak.me'
+  
+  #match '/5crideshare' => '5crideshare.jessepollak.me'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -28,11 +28,17 @@ body
 {
 	background: #EDEDED;
 	font-family: 'Nixie One', cursive;
+	min-width: 960px;
 }
 
 .clear
 {
 	clear: both;
+}
+
+#container
+{
+	min-width: 1200px;
 }
 
 //Header

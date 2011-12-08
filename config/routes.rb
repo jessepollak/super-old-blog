@@ -5,7 +5,7 @@ JessepollakMe::Application.routes.draw do
   
   root :to => 'Main#home'
   
-  #match '/5crideshare' => '5crideshare.jessepollak.me'
+  match '/:id' => 'Main#fivecrideshare', :constraints => {:id => /5crideshare/}
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

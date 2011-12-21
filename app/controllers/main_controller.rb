@@ -3,6 +3,6 @@ class MainController < ApplicationController
   end
   
   def fivecrideshare
-     redirect_to 'http://5crideshare.jessepollak.me'
+     redirect_to 'http://5crideshare.com'
   end
 end

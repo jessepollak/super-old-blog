@@ -1,0 +1,53 @@
+.afs-fontin-sans { font-family: "Fontin Sans", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif; ;}
+
+.afs-fontin-sans { font-family: "Fontin Sans", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif; font-size: 1.000em;}
+
+.afs-fontin-sans { font-family: "Fontin Sans", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif; font-size: 1.000em;}
+
+@font-face {
+    font-family: 'FontinSansRegular';
+    src: url('fontin_sans_r_45b-webfont.eot');
+    src: url('fontin_sans_r_45b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontin_sans_r_45b-webfont.woff') format('woff'),
+         url('fontin_sans_r_45b-webfont.ttf') format('truetype'),
+         url('fontin_sans_r_45b-webfont.svg#FontinSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FontinSansBold';
+    src: url('fontin_sans_b_45b-webfont.eot');
+    src: url('fontin_sans_b_45b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontin_sans_b_45b-webfont.woff') format('woff'),
+         url('fontin_sans_b_45b-webfont.ttf') format('truetype'),
+         url('fontin_sans_b_45b-webfont.svg#FontinSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FontinSansBoldItalic';
+    src: url('fontin_sans_bi_45b-webfont.eot');
+    src: url('fontin_sans_bi_45b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontin_sans_bi_45b-webfont.woff') format('woff'),
+         url('fontin_sans_bi_45b-webfont.ttf') format('truetype'),
+         url('fontin_sans_bi_45b-webfont.svg#FontinSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FontinSansItalic';
+    src: url('fontin_sans_i_45b-webfont.eot');
+    src: url('fontin_sans_i_45b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontin_sans_i_45b-webfont.woff') format('woff'),
+         url('fontin_sans_i_45b-webfont.ttf') format('truetype'),
+         url('fontin_sans_i_45b-webfont.svg#FontinSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

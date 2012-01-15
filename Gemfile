@@ -12,6 +12,7 @@ gem 'haml'
 gem 'rdiscount'
 gem 'haml-rails'
 gem 'sass'
+gem 'rack-no-www'
 
 # Gems used only for assets and not required
 # in production environments by default.
